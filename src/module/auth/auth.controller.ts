@@ -7,8 +7,8 @@ import { AuthService } from './auth.service';
 export class AuthController {
 
     constructor(private authService: AuthService){
-        
     }
+
     @Post('register')
     registerUser(@Body()userObj : RegisterAutoDto){
         console.log(userObj.email);
