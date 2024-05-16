@@ -12,11 +12,11 @@ POST http://127.0.0.1:3000/auth/login
 Content-Type: application/json
 
 {
-    "name":"prueba2",
-    "email":"pan@gmail.com",
-    "password":"1234567"
+    "name":"gabb",
+    "email":"gfg@gmail.com",
+    "password":"123456789"
 }
 
 ###users y agragar el toquen
 GET http://127.0.0.1:3000/users
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsImlkIjoxLCJpYXQiOjE3MTU4NzM3MTgsImV4cCI6MTcxNTg3Mzg2OH0.lInwo-TipIZLvI8TnI9RzQ7DZ8kOQ5NRibR3tHykzAw
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsImlkIjoxLCJpYXQiOjE3MTU4NzQwMTQsImV4cCI6MTcxNTg3NDE2NH0.gggCuKNbs9Yc-nG81u-T6Cs-7gjr-jYx3-ENBLAFOOU
