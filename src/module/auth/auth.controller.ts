@@ -11,12 +11,13 @@ export class AuthController {
 
     @Post('register')
     registerUser(@Body()userObj : RegisterAutoDto){
-        console.log(userObj.email);
+        console.log(userObj);
         return userObj;
     }
 
     @Post('login')
     login(@Body() credenciales: LoginAuthDto){
+        return this.authService.login(credenciales)
 
     }
 }
