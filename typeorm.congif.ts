@@ -15,6 +15,8 @@ export default new DataSource({
     port: +process.env.PORT,
     username: process.env.USERNAME,
     password: process.env.PASSWORD,
-    database: process.env.DATABASE
-    
+    database: process.env.DATABASE,
+    entities: ['src/**/*.entity.ts'], //indica donde estan las entidades
+    migrations: ['src/database/migrations/*.ts']
+
 });
