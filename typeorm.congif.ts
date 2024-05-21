@@ -11,7 +11,7 @@ config({
 
 export default new DataSource({
     type: 'postgres',
-
+    host: process.env.HOST,
     port: +process.env.PORT,
     username: process.env.USERNAME,
     password: process.env.PASSWORD,
@@ -20,3 +20,4 @@ export default new DataSource({
     migrations: ['src/database/migrations/*.ts']
 
 });
+
